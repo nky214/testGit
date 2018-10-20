@@ -34,6 +34,8 @@ process.on('uncaughtException', function(code){
     console.log('uncaughtException:');
 })
 
+console.log("fucntion foo");
+
 sayException();
 
 
