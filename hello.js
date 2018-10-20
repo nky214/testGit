@@ -34,8 +34,29 @@ process.on('uncaughtException', function(code){
     console.log('uncaughtException:');
 })
 
+console.log("fucntion foo");
+console.log("fucntion foo2");
+
 sayException();
 
+console.time('Summm');
+var sum = 0;
+var j = 0;
+for(var i = 0; i<1000000000; i++ ){
+    
+    j = j+i;
+}
+
+console.timeEnd('Summm');
 
 
+process.on('uncaughtException', function(code){
+    console.log('uncaughtException:');
+})
 
+
+console.log("fucntion foo");
+console.log("fucntion foo2");
+
+console.log("fucntion foo");
+console.log("fucntion foo2");
