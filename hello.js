@@ -65,3 +65,4 @@ console.log("function foo4");
 console.log("function foo5");
 console.log("function foo6");
 console.log("function foo7");
+console.log("function foo8");
