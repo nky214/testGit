@@ -61,3 +61,5 @@ console.log("fucntion foo2");
 console.log("fucntion foo");
 console.log("fucntion foo2");
 console.log("function foo3");
+console.log("function foo4");
+
