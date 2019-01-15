@@ -52,7 +52,6 @@ process.on('uncaughtException', function(code){
     console.log('uncaughtException:');
 })
 
-
 console.log("fucntion foo");
 console.log("fucntion foo2");
 
@@ -65,3 +64,9 @@ console.log("function foo6");
 console.log("function foo7");
 console.log("function foo8");
 console.log("function foo9");
+console.log("function foo10");
+console.log("function foo11");
+console.log("function foo12");
+console.log("function foo13");
+console.log("function foo14");
+console.log("function foo15");
