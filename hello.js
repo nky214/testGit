@@ -66,3 +66,4 @@ console.log("function foo7");
 console.log("function foo8");
 console.log("function foo9");
 console.log("function foo9");
+console.log("function foo11");
